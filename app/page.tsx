@@ -1,4 +1,3 @@
-import Image from "next/image";
 export default function Home() {
  
  return (
@@ -15,7 +14,7 @@ export default function Home() {
           life.
         </p>
       </div>
-      <div className="bg-white flex flex-col p-5 rounded-xl w-1/3">
+      <div className="bg-white flex flex-col p-5 rounded-xl w-1/3 "  >
         <input
           className=" m-2 border border-1 border-gray-100  p-3 rounded-md focus:outline-1 outline-blue-600"
           type="text"
